@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="metric_units">Metric Units</string>
+    <string name="english_units">English Units</string>
+    <string name="weight_label">Weight:</string>
+    <string name="weight_hint">Enter weight (kg)</string>
+    <string name="height_label">Height:</string>
+    <string name="height_hint">Enter height (Metre)</string>
+    <string name="bmi_label">BMI:</string>
+    <string name="status_label">Status:</string>
+    <string name="underweight">Underweight</string>
+    <string name="normal">Normal</string>
+    <string name="overweight">Overweight</string>
+    <string name="obese">Obese</string>
+</resources>

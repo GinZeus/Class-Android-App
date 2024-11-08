@@ -1,0 +1,32 @@
+<resources>
+    <!-- Existing strings -->
+    <string name="app_name">Road Sign Quiz</string>
+
+    <!-- Add these new strings -->
+    <string name="default_category">warning</string>
+    <string name="default_category_message">You must select at least one category. Warning signs have been selected as the default.</string>
+    <string name="restarting_quiz">The quiz will restart with your new settings.</string>
+
+    <!-- Make sure these are also present -->
+    <string name="number_of_choices">Number of Choices</string>
+    <string name="number_of_choices_summary">Select the number of choices for each question</string>
+    <string name="sign_categories">Sign Categories</string>
+    <string name="sign_categories_summary">Select the categories of signs to include in the quiz</string>
+
+    <string-array name="guesses_list">
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="sign_categories_list">
+        <item>warning</item>
+        <item>regulatory</item>
+        <item>guide</item>
+        <item>construction</item>
+    </string-array>
+
+    <string-array name="default_sign_categories">
+        <item>warning</item>
+    </string-array>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="pref_numberOfChoices"
+        android:title="@string/number_of_choices"
+        android:summary="@string/number_of_choices_summary"
+        android:entries="@array/guesses_list"
+        android:entryValues="@array/guesses_list"
+        android:defaultValue="4" />
+
+    <MultiSelectListPreference
+        android:key="pref_signCategoriesToInclude"
+        android:title="@string/sign_categories"
+        android:summary="@string/sign_categories_summary"
+        android:entries="@array/sign_categories_list"
+        android:entryValues="@array/sign_categories_list"
+        android:defaultValue="@array/default_sign_categories" />
+</PreferenceScreen>
